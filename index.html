@@ -1,11 +1,1000 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Amazon Clone - ProCodeUp</title>
 </head>
+
 <body>
-    
+    <header>
+        <div id="navbar">
+            <!-- 1st box -->
+            <div class="logo-img ">
+                <img class="border" src="assets/amazon_logo.png" alt="LOgo png">
+            </div>
+            <!-- 2nd box -->
+            <div class="nav-add border">
+                <img src="svg/location-pin-svgrepo-com.svg" alt="Location" width="18">
+                <div class="add-loca">
+                    <p>Deliver to</p>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <!-- 3rd box -->
+            <div class="nav-search">
+                <div class="all-select">
+                    <select>
+                        <option>All</option>
+                    </select>
+                </div>
+                <div class="amazon-search">
+                    <input type="text" placeholder="Search Amazon">
+                </div>
+                <div class="search-icon">
+                    <i><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="21.6" viewBox="0 0 50 50">
+                        <path d="M 21 3 C 11.622998 3 4 10.623005 4 20 C 4 29.376995 11.622998 37 21 37 C 24.712383 37 28.139151 35.791079 30.9375 33.765625 L 44.085938 46.914062 L 46.914062 44.085938 L 33.886719 31.058594 C 36.443536 28.083 38 24.223631 38 20 C 38 10.623005 30.377002 3 21 3 z M 21 5 C 29.296122 5 36 11.703883 36 20 C 36 28.296117 29.296122 35 21 35 C 12.703878 35 6 28.296117 6 20 C 6 11.703883 12.703878 5 21 5 z"></path>
+                        </svg></i>
+                </div>
+            </div>
+            <!-- 4th box -->
+            <div class="nav-lang border">
+                <!-- <p>EN <i class="bi bi-caret-down-fill"></i></p> -->
+                <img src="https://flagsapi.com/IN/flat/64.png">
+                <select id="select">
+                    <option value="EN" selected>EN</option>
+                    <!-- <option value="HI">HINDI</option>
+                    <option value="MR">MARATHI</option>
+                    <option value="UR">URDU</option>
+                    <option value="BN">BANGALA</option> -->
+                </select>
+            </div>
+            <!-- 5th box -->
+            <div class="nav-sign border">
+                <p class="nav-first">Hello, Sign in</p>
+                <p class="nav-second">Account & List <i class="bi bi-caret-down-fill"></i></p>
+            </div>
+            <!-- 6th box -->
+            <div class="nav-sign border RandO">
+                <p class="nav-first">Returns</p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <!-- 7th box -->
+            <div class="cart border">
+                <img src="svg/cart-large-2-svgrepo-com.svg" alt="cart" width="30">Cart
+            </div>
+        </div>
+        <div id="second-nav">
+            <div class="ham-menu  border">
+                <div class="bar">
+                    <i class="bi bi-list"></i>
+                    <p>All</p>
+                </div>
+            </div>
+            <div class="sub-menu">
+                <ul>
+                    <li class="border"><a href="#">Amazon miniTV</a></li>
+                    <li class="border"><a href="#">Sell</a></li>
+                    <li class="border"><a href="#">Best Sellers</a></li>
+                    <li class="border"><a href="#">Mobiles</a></li>
+                    <li class="border"><a href="#">Today's Deals</a></li>
+                    <li class="border"><a href="#">Prime</a></li>
+                    <li class="border"><a href="#">Customer Service</a></li>
+                    <li class="border"><a href="#">Electronics</a></li>
+                    <li class="border"><a href="#">New Releases</a></li>
+                    <li class="border"><a href="#">Home & Kitchen</a></li>
+                    <li class="border"><a href="#">Fashion</a></li>
+                    <li class="border"><a href="#">Amazon Pay</a></li>
+                    <li class="border"><a href="#">Gift Ideas</a></li>
+                    <li class="border"><a href="#">Computers</a></li>
+                    <li class="border"><a href="#">Books</a></li>
+                </ul>
+                <div class="bgcolor"></div>
+                <div class="bgcolorlight"></div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="hero-page-container">
+            <div class="hero-page">
+                <div class="left-icon"><i class="bi bi-chevron-compact-left"></i></div>
+                <div class="right-icon"><i class="bi bi-chevron-compact-right"></i></div>
+            </div>
+        </div><!--end hero page container-->
+
+        <!--start main-container  -->
+        <div class="main-container">
+            <div class="contant-container">
+                <!-- start 1st box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Appliances for your home | Up to 55% off</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+                                alt="">
+                            <p>Air conditioners</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+                                alt="">
+                            <p>Refrigerators</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
+                                alt="">
+                            <p>Microwaves</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
+                                alt="">
+                            <p>Washing Machine</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 1st box -->
+                <!-- start 2nd box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Styles for men</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg"
+                                alt="">
+                            <p>Clothing</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg"
+                                alt="">
+                            <p>Footwear</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg"
+                                alt="">
+                            <p>Watches</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg"
+                                alt="">
+                            <p>Bags & wallets</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>End of season sale</p>
+                    </div>
+                </div><!--end 2nd box -->
+                <!-- start 3rd box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Starting ₹99 | All your home improvement needs</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_4._SY116_CB600489960_.jpg"
+                                alt="">
+                            <p>Spin mops, wipes & more</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_3._SY116_CB600489960_.jpg"
+                                alt="">
+                            <p>Bathroom hardware & accessories</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_7._SY116_CB600489960_.jpg"
+                                alt="">
+                            <p>Hammers, screwdrivers & more</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_5._SY116_CB600489960_.jpg"
+                                alt="">
+                            <p>Extension boards, plugs & more</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>End of season sale</p>
+                    </div>
+                </div><!--end 3rd box -->
+                <!-- start 4th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Revamp your home in style</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_furnishings_2._SY116_CB584596691_.jpg"
+                                alt="">
+                            <p>Cushion covers, bedsheets & more</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_decor_1._SY116_CB584596691_.jpg"
+                                alt="">
+                            <p>Figurines, vases and more</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_storage_1._SY116_CB584596691_.jpg"
+                                alt="">
+                            <p>Home storage</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_lighting_2._SY116_CB584596691_.jpg"
+                                alt="">
+                            <p>Lighting solutions</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 4th box -->
+                <!-- start 5th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Styles for women</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg"
+                                alt="">
+                            <p>Women's Clothing</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg"
+                                alt="">
+                            <p>Footwear+Handbags</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg"
+                                alt="">
+                            <p>Watches</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg"
+                                alt="">
+                            <p>Fashion jewellery</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>End of season sale</p>
+                    </div>
+                </div><!--end 5th box -->
+                <!-- start 6th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Automotive essentials | Up to 60% off</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                                alt="">
+                            <p>Cleaning accessories</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                                alt="">
+                            <p>Tyre & rim care</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                                alt="">
+                            <p>Helmets</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                                alt="">
+                            <p>Vacuum cleaner</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 6th box -->
+                <!-- start 7th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Tender care, endless fun | Amazon Brands & more</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_186x116_1._SY116_CB595777477_.jpg"
+                                alt="">
+                            <p>Starting ₹185 | Baby essentials</p>
+                        </div>
+                        <div class="img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/Baby_toys/QC_PC_186x116_31._SY116_CB561295501_.jpg"
+                                alt="">
+                            <p>Starting ₹245 | Play gyms & more</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/Baby_toys/QC_PC_186x116_1._SY116_CB580890518_.jpg"
+                                alt="">
+                            <p>Starting ₹149 | Soft toys</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/Baby_toys/QC_PC_186x116_3._SY116_CB580890147_.jpg"
+                                alt="">
+                            <p>Starting ₹379 | Outdoor games</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 7th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img img1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Tools1x._SY116_CB424026090_.jpg alt="">
+                            <p>Professional tools</p>
+                        </div>
+                        <div class=" img img2">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/2._SY116_CB643952439_.jpg"
+                                alt="">
+                            <p>Measuring instruments</p>
+                        </div>
+                        <div class="img img3">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/1._SY116_CB643952439_.jpg"
+                                alt="">
+                            <p>Cleaning supplies</p>
+                        </div>
+                        <div class="img img4">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/med1x._SY116_CB424026091_.jpg"
+                                alt="">
+                            <p>Medical supplies</p>
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- todays-deals section start  -->
+                <div id="todays-deal">
+                    <div class="header-title-link">
+                        <h2>Today's Deals</h2>
+                        <p>See all deals</p>
+                    </div>
+                    <div class="td-images-box">
+                        <!-- start box 1  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/41bLD50sZSL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 1st box -->
+                        <!-- start box 2  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/91dovXuONBL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>Up to 83%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="mrp-section">
+                                            All Clothing: BIBA, Max, Aurelia and m…
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end 2st box -->
+                        <!-- start box 3  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/618I++aMUNL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>Up to 87%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">
+                                        Casual Wear Tops from Top BrandsCasual Wear Tops from Top Brands</span>
+                                </div>
+                            </div>
+                        </div><!--end 3rd box -->
+                        <!-- start box 4  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/71JE6RVeu3L._SY695__AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>Up to 60%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">Best Deals on PumaBest Deals on Puma</span>
+                                </div>
+                            </div>
+                        </div><!--end 4 box -->
+                        <!-- start box 5  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/4105IiC5tDL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>45%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">10,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 19,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z6 Lite</span>
+                                    <span class="starting-price">
+                                        | Starting @10,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 5 box -->
+                        <!-- start box 6  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/512Poa0iMkL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>Up to 78%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">Selling Home Products by Kuber... </span> </span>
+                                </div>
+                            </div>
+                        </div><!--end 6 box -->
+                        <!-- start box 7  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/41TssgTTkwL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>Up to 52%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">Best Offers from Top Brands</span>
+                                </div>
+                            </div>
+                        </div><!--end 7 box -->
+                        <!-- start box 8  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/41uGjvXbeBL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 8 box -->
+                        <!-- start box 9  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/41CtKtA3+aL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 9 box -->
+                        <!-- start box 10 -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/31-TqE7SqjL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 10 box -->
+                        <!-- start box 11  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/31-TqE7SqjL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 11 box -->
+                        <!-- start box 12  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/41trNbgxV-L._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 12 box -->
+                        <!-- start box 13  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/91dovXuONBL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 13 box -->
+                        <!-- start box 14  -->
+                        <div class="td-image-box box1">
+                            <div class="img-contant">
+                                <img src="https://m.media-amazon.com/images/I/91dovXuONBL._AC_SY200_.jpg" alt="">
+                            </div>
+                            <div class="td-deals">
+                                <div class="deals-soveler">
+                                    <div class="offer-section">
+                                        <span>38%</span>
+                                        <span>off</span>
+                                    </div>
+                                    <div class="mini-deal-text">
+                                        Limited time deal
+                                    </div>
+                                </div>
+                                <div class="price-section">
+                                    <div class="rate-section">
+                                        <span class="rupee-symbol">&#8377;</span>
+                                        <span class="rate-value">14,999.00</span>
+                                        <span class="mrp-section">
+                                            <span>M.R.P.:</span>
+                                            <del>&#8377; 23,999.00</del>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="devices-name">
+                                    <span class="dvn">iQOO Z7s 5G</span>
+                                    <span class="starting-price">
+                                        | Starting @13,999
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!--end 14 box -->
+                    </div>
+                </div>
+                <!-- start 1st box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image">
+                            <img src="">
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://m.media-amazon.com/images/I/51ZxXQtzvsL._AC_SY200_.jpg);">
+
+                        </div>
+
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://m.media-amazon.com/images/I/91HjWYfYcEL._AC_SY200_.jpg);">
+
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://m.media-amazon.com/images/I/51vSJsTrT8L._AC_SY200_.jpg);">
+
+                        </div>
+
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://m.media-amazon.com/images/I/519V0gIqCfL._AC_SY200_.jpg);">
+
+                        </div>
+
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://m.media-amazon.com/images/I/51ppT1zE71L._AC_SY200_.jpg);">
+
+                        </div>
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img19/Sports/GW_Desktop/1199101_379x304_Compressed._SY304_CB448278349_.jpg);">
+
+                        </div>
+
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+                <!-- start 8th box -->
+                <div class="box box1">
+                    <div class="box-header">
+                        <h2>Up to 60% off | Professional tools, testing</h2>
+                    </div>
+                    <div class="images-box">
+                        <div class="img full-box-image"
+                            style="background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/December/CC/PC_379x304_1._SY304_CB572341311_.jpg);">
+
+                        </div>
+
+                    </div>
+                    <div class="box-footer-link">
+                        <p>See more</p>
+                    </div>
+                </div><!--end 8th box -->
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <div id="footer-section">
+        <div class="backTotop">
+            Back to top
+        </div><!--end back to top-->
+
+        <div id="menu-sub-container">
+            <div class="margin-lr">
+                <div class="grid-container">
+                    <div class="box box1">
+                        <h3>Get to Know Us</h3>
+                        <ul>
+                            <li><a class="a-underline" href="#">About Us</a></li>
+                            <li><a class="a-underline" href="#">Careers</a></li>
+                            <li><a class="a-underline" href="#">Press Releases</a></li>
+                            <li><a class="a-underline" href="#">Amazon Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="box box1">
+                        <h3>Connect with Us</h3>
+                        <ul>
+                            <li><a class="a-underline" href="#">Facebook</a></li>
+                            <li><a class="a-underline" href="#">Twitter</a></li>
+                            <li><a class="a-underline" href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="box box1">
+                        <h3>Make Money with Us</h3>
+                        <ul>
+                            <li><a class="a-underline" href="#">Sell on Amazon</a></li>
+                            <li><a class="a-underline" href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a class="a-underline" href="#">Protect and Build Your Brand</a></li>
+                            <li><a class="a-underline" href="#">Amazon Global Selling</a></li>
+                            <li><a class="a-underline" href="#">Become an Affiliate</a></li>
+                            <li><a class="a-underline" href="#">Fulfilment by Amazon</a></li>
+                            <li><a class="a-underline" href="#">Advertise Your Products</a></li>
+                            <li><a class="a-underline" href="#">Amazon Pay on Merchants</a></li>
+                        </ul>
+                    </div>
+                    <div class="box box1">
+                        <h3>Let Us Help You</h3>
+                        <ul>
+                            <li><a class="a-underline" href="#">COVID-19 and Amazon</a></li>
+                            <li><a class="a-underline" href="#">Your Account</a></li>
+                            <li><a class="a-underline" href="#">Returns Centre</a></li>
+                            <li><a class="a-underline" href="#">100% Purchase Protection</a></li>
+                            <li><a class="a-underline" href="#">Amazon App Download</a></li>
+                            <li><a class="a-underline" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div><!--end grid container-->
+                <hr>
+                <div class="footer-logo-lang footer-sub-menu">
+                    <div class="footer-logo-lng-container">
+                        <img src="assets/amazon_logo.png" alt="logo-img">
+
+                        <div class="footer-lang">
+                            <select>
+                                <option value="English" selected>English</option>
+                            </select>
+                        </div>
+
+                        <div class="footer-country-flags">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select id="select">
+                                <option value="IN" selected>India</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="footer-sm">
+                        <a class="a-underline" href="#">Australia</a>
+                        <a class="a-underline" href="#">Brazil</a>
+                        <a class="a-underline" href="#">Canada</a>
+                        <a class="a-underline" href="#">China</a>
+                        <a class="a-underline" href="#">France</a>
+                        <a class="a-underline" href="#">Germany</a>
+                        <a class="a-underline" href="#">Italy</a>
+                        <a class="a-underline" href="#">Japan</a>
+                        <a class="a-underline" href="#">Mexico</a>
+                        <a class="a-underline" href="#">Netherlands</a>
+                        <a class="a-underline" href="#">Poland</a>
+                        <a class="a-underline" href="#">Singapore</a>
+                        <a class="a-underline" href="#">Spain</a>
+                        <a class="a-underline" href="#">Turkey</a>
+                        <a class="a-underline" href="#">United Arab Emirates</a>
+                        <a class="a-underline" href="#">United Kingdom</a>
+                        <a class="a-underline" href="#">United States</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--end menu-sub-container-->
+        <div id="footer-contant-a-copyright">
+            <div class="copyright-s">
+                <a class="a-underline" href="#">Conditions of Use & Sale</a>
+                <a class="a-underline" href="#">Privacy Notice</a>
+                <a class="a-underline" href="#">Interest-Based Ads</a>
+                <a class="a-underline" href="#">© 1996-2024, Amazon.com, Inc. or its affiliates</a>
+                <p><a class="a-underline" href="https://www.instagram.com/rahul_yadav0106/">Clone Deleloper - Rahul
+                        Kumar</a></p>
+            </div>
+        </div>
+    </div><!--end footer section-->
 </body>
+
 </html>
